@@ -30,7 +30,7 @@ function Text() {
 }
 function Icon() {
     return (
-        <img className="icon" src="/images/icon-star.svg" alt="star" />
+        <img className="icon" src="images/icon-star.svg" alt="star" />
     )
 }
 function Rating() {
