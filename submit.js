@@ -35,7 +35,7 @@ function Text() {
 }
 function Image() {
     return (
-        <img className="submit__image" src="/images/illustration-thank-you.svg" alt="star" />
+        <img className="submit__image" src="images/illustration-thank-you.svg" alt="star" />
     )
 }
 function Selected({number}) {
