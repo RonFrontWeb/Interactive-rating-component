@@ -3,7 +3,7 @@ const { useState } = React;
 setTimeout(sendback,2000);
 
 function sendback() {
-        location.href= "/index.html";
+        location.href= "index.html";
 }
 
 function App() {
