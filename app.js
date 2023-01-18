@@ -51,7 +51,7 @@ function Rating() {
 
 function Button() {
     const handleClick = (e) => {
-        location.href ="/submit.html"
+        location.href ="submit.html"
         }
     return (
        <div onClick={handleClick}className="button" >
