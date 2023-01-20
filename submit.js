@@ -1,6 +1,4 @@
-const { useState } = React;
-
-setTimeout(sendback,2000);
+// setTimeout(sendback,2000);
 
 function sendback() {
         location.href= "index.html";
@@ -9,12 +7,12 @@ function sendback() {
 function App() {
     return (
         <>
-        <Container/>
+        <SubmitContainer/>
         </>
     )
 }
 
-function Container() {
+function SubmitContainer() {
     return (
         <div className="submit__container">
             <Image/>
@@ -24,7 +22,7 @@ function Container() {
     )
 }
 
-function Text() {
+function SubmitText() {
     return (
         <div className="submit__text__container">
             <h1 className="submit__title">Thank you!</h1>
@@ -33,15 +31,15 @@ function Text() {
         </div>
     )
 }
-function Image() {
+function SubmitImage() {
     return (
         <img className="submit__image" src="images/illustration-thank-you.svg" alt="star" />
     )
 }
-function Selected({number}) {
+function SubmitSelected({number}) {
             return (
        <div className="seleted__container">
-            <p className="selected__text">you selected out {number} of 5</p>
+            <p className="selected__text">you selected {number} out of 5</p>
        </div>
     )
 }
